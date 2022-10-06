@@ -67,10 +67,18 @@
   margin-top: 6px;
 }
 
+.icons__item {
+  color: #737373;
+  width: 15px;
+  height: 15px;
+  left: calc(50% - 20px / 2);
+  margin-top: 6px;
+}
+
 .mobile {
   display: none;
 }
-.header__content {
+.navbar__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +116,7 @@
   line-height: 30px;
 }
 
-.header__btn {
+.navbar__btn {
   display: flex;
   gap: 10px;
 }
@@ -295,7 +303,7 @@
   line-height: 24px;
   letter-spacing: 0.2px;
 }
-.name--yellow {
+.name--active {
   color: #ffa62b;
 }
 
@@ -380,7 +388,7 @@
   gap: 10px;
 }
 
-.content__title {
+.contents__title {
   width: 90px;
   height: 24px;
   left: 0px;
@@ -396,7 +404,7 @@
   color: #252b42;
 }
 
-.content__description {
+.contents__description {
   width: 455px;
   height: 57px;
   left: 0px;
@@ -434,7 +442,7 @@
   border-radius: 5px;
 }
 
-.input__area {
+.contents__area {
   box-sizing: border-box;
   width: 598px;
   height: 140px;
@@ -443,7 +451,7 @@
   border-radius: 5px;
 }
 
-.input__btn {
+.contents__btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -662,7 +670,7 @@
     color: #737373;
   }
 
-  .header__content {
+  .navbar__content {
     width: 0px;
 
     gap: 20px;
@@ -718,10 +726,10 @@
   .input__item {
     width: 300px;
   }
-  .input__area {
+  .contents__area {
     width: 300px;
   }
-  .content__description {
+  .contents__description {
     width: 273px;
     height: 114px;
     left: 0px;
@@ -733,7 +741,7 @@
     letter-spacing: 0.2px;
     color: #252b42;
   }
-  .input__btn {
+  .contents__btn {
     width: 300px;
   }
 
