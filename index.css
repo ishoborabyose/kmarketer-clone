@@ -596,7 +596,7 @@
   font-weight: bold;
 }
 
-.last-footer-container {
+.last-footer {
   background-color: #16697a;
   display: flex;
   justify-items: flex-start;
@@ -604,7 +604,7 @@
   color: white;
   font-size: 12px;
 }
-.last-footer {
+.last-footer__container {
   width: 80%;
   margin: 0 auto;
 }
@@ -807,7 +807,7 @@
     border-radius: unset;
   }
 
-  .last-footer {
+  .last-footer__container {
     text-align: center;
   }
 }
