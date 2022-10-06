@@ -513,12 +513,12 @@
   color: #737373;
 }
 
-.footer-container {
+.footer {
   background-color: #252b42;
   height: fit-content;
 }
 
-.footer {
+.footer__container {
   width: 70%;
   margin: 0 auto;
   margin-top: 30px;
@@ -577,8 +577,8 @@
 }
 
 .footer__card-btn {
-  border-top-left-radius: none !important;
-  border-bottom-left-radius: none !important;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
 }
 
 .footer__btn {
@@ -775,7 +775,7 @@
     color: #252b42;
   }
 
-  .footer {
+  .footer__container {
     width: unset;
     padding: 1rem;
   }
