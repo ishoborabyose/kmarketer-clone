@@ -847,12 +847,6 @@
     grid-template-rows: 1fr 1fr;
   }
 
-  .card--span--full {
-    grid-column: span 2;
-    display: flex;
-    padding-bottom: 0;
-  }
-
   .service__image {
     width: 70%;
   }
